@@ -1,0 +1,39 @@
+Sequential Execution
+
+
+clonsh> hostname
+  count> 4
+  [p]arallel or [s]equential> s
+  timeout> 10
+My process id is 2246
+ubuntu
+process 2246 terminated
+My process id is 2247
+ubuntu
+process 2247 terminated
+My process id is 2248
+ubuntu
+process 2248 terminated
+My process id is 2249
+ubuntu
+process 2249 terminated
+clonsh> 
+
+
+Parallel Execution
+
+clonsh> pwd
+  count> 4
+  [p]arallel or [s]equential> p
+  timeout> 5
+My process id is: 2267
+My process id is: 2266
+My process id is: 2265
+My process id is: 2264
+/home/michael/workspace/P
+/home/michael/workspace/P
+/home/michael/workspace/P
+/home/michael/workspace/P
+
+
+
